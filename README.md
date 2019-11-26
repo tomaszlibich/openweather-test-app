@@ -1,4 +1,4 @@
-# city-weather-simple
+# openweather-test-app
 
 This a simple web app demo for OpenWeather API usage.
 
