@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="logo animated fadeIn"
+        src="./img/openweather-logo.png"
+        alt="OpenWeather Logo"
+      />
+    </header>
+    <div class="content">
+      <form class="city-selector">
+        <div class="form-group">
+          <label for="citySelector">Select a city</label>
+          <select
+            class="form-control"
+            id="citySelector"
+            name="citySelector"
+            aria-labelledby="ID_REF"
+          >
+            <option value="">..</option>
+            <option value="Birmingham">Birmingham</option>
+            <option value="London">London</option>
+            <option value="Cardiff">Cardiff</option>
+          </select>
+        </div>
+      </form>
+      <div class="forecast" id="forecast"></div>
+    </div>
+  </body>
+</html>

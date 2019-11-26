@@ -1,0 +1,53 @@
+body {
+  font-size: 100%;
+  color: #333;
+}
+
+header {
+  display: flex;
+  background: #333;
+  padding: 12px;
+}
+
+header .logo {
+  height: 30px;
+  background-color: transparent;
+}
+
+.city-selector {
+  width: 100%;
+  max-width: 300px;
+  margin: 12px;
+}
+
+.forecast {
+  display: flex;
+  margin: 0 12px;
+}
+
+.forecast-items {
+  list-style-type: none;
+  width: 150px;
+  background: #f6f6f6;
+  margin: 12px;
+  padding: 12px;
+}
+
+.forecast .datetime,
+.forecast-item-wind {
+  font-size: 0.8em;
+}
+
+.forecast-item-temp {
+  font-size: 2em;
+}
+
+.forecast-item-temp,
+.forecast-item-icon,
+.forecast-item-wind {
+  text-align: center;
+}
+
+.forecast-item-description {
+  padding-top: 12px;
+}
