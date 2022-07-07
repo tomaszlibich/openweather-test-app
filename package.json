@@ -33,7 +33,7 @@
     "jest": "^24.9.0",
     "jest-webpack": "^0.5.1",
     "jsdom": "^15.2.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
